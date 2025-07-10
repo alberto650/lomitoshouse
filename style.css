@@ -79,18 +79,24 @@ header {
   margin: auto;
 }
 
+/* Mejora visual para todas las tarjetas */
 .card {
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   padding: 1.5rem;
   transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
 }
 
 .card:hover {
   transform: translateY(-5px);
 }
 
+/* Soporte para imágenes en tarjetas */
 .card img {
   max-width: 100%;
   height: 180px;
@@ -99,20 +105,28 @@ header {
   margin-bottom: 1rem;
 }
 
+/* Títulos dentro de tarjetas */
 .card h3 {
   color: #00796B;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+/* Párrafos y enlaces */
+.card p {
   margin-bottom: 0.5rem;
 }
 
 .card a {
-  text-decoration: none;
   color: #009688;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .card a:hover {
   text-decoration: underline;
 }
+
 
 /* --- Footer --- */
 footer {
