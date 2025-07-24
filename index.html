@@ -7,6 +7,81 @@
   <title>Casa Rural El Lomito - Tejeda</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+    }
+    nav.lang-nav {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 1rem 0;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    nav.lang-nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    nav.lang-nav a {
+      text-decoration: none;
+      color: #00796B;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    nav.lang-nav a:hover, nav.lang-nav a.active {
+      background-color: #00796B;
+      color: #fff;
+    }
+
+    header {
+      background: url('img/roque-nublo.jpg') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      text-align: center;
+    }
+
+    .header-overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 2rem;
+      color: #fff;
+      width: 100%;
+    }
+
+    .header-overlay h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .header-overlay h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      background-color: #00796B;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .btn:hover {
+      background-color: #004D40;
+    }
+  </style>
 </head>
 <body>
   <nav class="lang-nav">
