@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landhaus El Lomito – Tejeda</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+    }
+    nav.lang-nav {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 1rem 0;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    nav.lang-nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    nav.lang-nav a {
+      text-decoration: none;
+      color: #00796B;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    nav.lang-nav a:hover, nav.lang-nav a.active {
+      background-color: #00796B;
+      color: #fff;
+    }
+
+    header {
+      background: url('img/roque-nublo.jpg') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      text-align: center;
+    }
+
+    .header-overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 2rem;
+      color: #fff;
+      width: 100%;
+    }
+
+    .header-overlay h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .header-overlay h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      background-color: #00796B;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .btn:hover {
+      background-color: #004D40;
+    }
+  </style>
+</head>
+<body>
+  <nav class="lang-nav">
+    <ul>
+      <li><a href="index.html">Español</a></li>
+      <li><a href="en.html">English</a></li>
+      <li><a href="fr.html">Français</a></li>
+      <li><a href="de.html" class="active">Deutsch</a></li>
+      <li><a href="it.html">Italiano</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <div class="header-overlay">
+      <h1>Landhaus El Lomito</h1>
+      <h2>Erholung inmitten der Natur in Tejeda, Gran Canaria</h2>
+      <a href="#kontakt" class="btn">Direkter Kontakt</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="places">
+      <h2>Sehenswürdigkeiten</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="img/roque-nublo.jpg" alt="Roque Nublo">
+          <h3>Roque Nublo</h3>
+          <p><a href="https://goo.gl/maps/Kftu4bZ1jNvazNEk6" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+        <div class="card">
+          <img src="img/tejeda.jpg" alt="Tejeda">
+          <h3>Dorf Tejeda</h3>
+          <p><a href="https://goo.gl/maps/qrf88wiYrstue7cj6" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+        <div class="card">
+          <img src="img/dunas-maspalomas.jpg" alt="Dünen von Maspalomas">
+          <h3>Dünen von Maspalomas</h3>
+          <p><a href="https://goo.gl/maps/uSsQR342xZQnFeTU8" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+        <div class="card">
+          <img src="img/ventana-nublo.jpg" alt="Fenster des Nublo">
+          <h3>Fenster des Nublo</h3>
+          <p><a href="https://goo.gl/maps/NS2kMbD3c2nK1bA36" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+        <div class="card">
+          <img src="img/cenobio-valeron.jpg" alt="Cenobio de Valerón">
+          <h3>Cenobio de Valerón</h3>
+          <p>Vorratslager der Ureinwohner, in den Felsen gehauen (Gáldar).</p>
+          <p><a href="https://goo.gl/maps/46T3PCJRANZGFUTA8" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+        <div class="card">
+          <img src="img/cueva-pintada.jpg" alt="Bemalte Höhle in Gáldar">
+          <h3>Bemalte Höhle in Gáldar</h3>
+          <p>Archäologische Stätte mit Felsmalereien und Museum.</p>
+          <p><a href="https://goo.gl/maps/E5SwFSn7vVg56r7M6" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+        <div class="card">
+          <img src="img/fortaleza-ansite.jpg" alt="Festung von Ansite">
+          <h3>Festung von Ansite</h3>
+          <p>Symbolischer letzter Rückzugsort der Ureinwohner.</p>
+          <p><a href="https://goo.gl/maps/V9oYBUp5SoqgiD7z8" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="viewpoints">
+      <h2>Aussichtspunkte</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="img/pozos-nieve.jpg" alt="Pico de los Pozos de la Nieve">
+          <h3>Pico de los Pozos de la Nieve</h3>
+          <p>Panoramablick auf das Inselzentrum und den Roque Nublo.</p>
+          <p><a href="https://goo.gl/maps/fjaeAjXta7PoJ3sN8" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+        <div class="card">
+          <img src="img/degollada-becerra.jpg" alt="Mirador Degollada de Becerra">
+          <h3>Aussichtspunkt Degollada de Becerra</h3>
+          <p>Blick auf die Caldera von Tejeda, leicht mit dem Auto erreichbar.</p>
+          <p><a href="https://goo.gl/maps/HGuc5tAQ2L82" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+        <div class="card">
+          <img src="img/mirador-balcon.jpg" alt="Mirador del Balcón">
+          <h3>Balkon-Aussichtspunkt</h3>
+          <p>Dramatische Klippen mit Blick auf den Atlantik. Ein natürlicher Balkon.</p>
+          <p><a href="https://goo.gl/maps/JndpaxbydbwUqCyX9" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="hiking">
+      <h2>Wanderwege ab La Culata</h2>
+      <div class="grid">
+        <!-- Wanderungen mit Wikiloc-Links -->
+      </div>
+
+      <h3>Weitere empfohlene Routen</h3>
+      <div class="grid">
+        <div class="card">
+          <h3>Guayadeque-Schlucht</h3>
+          <p>Weg zwischen Höhlenhäusern und traditioneller Natur.</p>
+          <p>⏱️ 2 Std. 30 Min · Leicht–Mittel</p>
+          <p><a href="https://es.wikiloc.com/rutas-senderismo/barranco-de-guayadeque-casas-cueva-27240734" target="_blank">Zur Route</a></p>
+        </div>
+        <div class="card">
+          <h3>Agaete - El Risco (Küstenweg)</h3>
+          <p>Weg entlang des Atlantiks mit atemberaubenden Ausblicken.</p>
+          <p>⏱️ 3 Std. · Mittel</p>
+          <p><a href="https://es.wikiloc.com/rutas-senderismo/agaete-puerto-de-las-nieves-el-risco-86549945" target="_blank">Zur Route</a></p>
+        </div>
+        <div class="card">
+          <h3>Cruz de Tejeda – Pico de las Nieves</h3>
+          <p>Hochgebirgsroute durch das Inselzentrum.</p>
+          <p>⏱️ 4 Std. · Schwer</p>
+          <p><a href="https://es.wikiloc.com/rutas-senderismo/cruz-de-tejeda-pico-de-las-nieves-42445895" target="_blank">Zur Route</a></p>
+        </div>
+        <div class="card">
+          <h3>Artenara – Acusa Seca – Cuevas del Rey</h3>
+          <p>Archäologischer und landschaftlicher Rundweg mit Blick auf Bentayga.</p>
+          <p>⏱️ 3 Std. · Mittel</p>
+          <p><a href="https://es.wikiloc.com/rutas-senderismo/ruta-circular-artenara-acusa-seca-cuevas-del-rey-113733133" target="_blank">Zur Route</a></p>
+        </div>
+        <div class="card">
+          <h3>Tamadaba – Llanos de la Mimbre</h3>
+          <p>Pfad durch die ältesten Kiefernwälder der Kanaren.</p>
+          <p>⏱️ 4 Std. · Schwer</p>
+          <p><a href="https://es.wikiloc.com/rutas-senderismo/tamadaba-llanos-de-la-mimbre-45890233" target="_blank">Zur Route</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <h2>Lokale Dienstleistungen</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Restaurant El Almendro</h3>
+          <p>Hausgemachte Küche und familiäre Atmosphäre mit Terrasse.</p>
+          <p><a href="https://share.google/M8XMFML5D6Paq75zy" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+        <div class="card">
+          <h3>Restaurant Roque Nublo</h3>
+          <p>5 Gehminuten entfernt. Kanarische Küche mit lokalen Produkten.</p>
+          <p><a href="https://goo.gl/maps/z5rPyCzZmoyK2PwaA" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+        <div class="card">
+          <h3>Grillrestaurant La Cumbre</h3>
+          <p>Internationale Küche in gemütlichem Ambiente.</p>
+          <p><a href="https://share.google/XupjvY4f1KZzQ6bR7" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+        <div class="card">
+          <h3>Confiserie Nublo</h3>
+          <p>Traditionelle Süßspeisen wie Bienmesabe und Marzipan.</p>
+          <p><a href="https://goo.gl/maps/Wbz9mjqgcFcbnKrVA" target="_blank">Auf Google Maps ansehen</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experiences">
+      <h2>Empfohlene Erlebnisse</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Sternenhimmel in Tejeda</h3>
+          <p>Beobachten Sie die Sterne in einem der klarsten Himmel Europas.</p>
+          <p><a href="https://www.astrogc.com/" target="_blank">AstroGC</a></p>
+        </div>
+        <div class="card">
+          <h3>Kaffeeroute Agaete</h3>
+          <p>Besichtigen Sie Europas einzige Kaffeeplantagen.</p>
+          <p><a href="https://www.cafedeagaete.com/" target="_blank">Mehr Infos</a></p>
+        </div>
+        <div class="card">
+          <h3>Fahrradverleih</h3>
+          <p>Entdecken Sie Gran Canaria mit dem Fahrrad.</p>
+          <p><a href="https://www.free-motion.com/en/gran-canaria/bikes" target="_blank">Free Motion</a></p>
+        </div>
+        <div class="card">
+          <h3>Delfinbeobachtung</h3>
+          <p>Bootstour ab dem Süden der Insel, um Wale und Delfine zu sehen.</p>
+          <p><a href="https://www.tripadvisor.es/AttractionProductReview-g187471-d12468964" target="_blank">Jetzt buchen</a></p>
+        </div>
+        <div class="card">
+          <h3>Waldbaden</h3>
+          <p>Entspannen Sie sich in den Kiefernwäldern von Tamadaba und atmen Sie die reinste Luft der Insel ein.</p>
+          <p><a href="https://es.wikiloc.com/rutas-senderismo/shinrin-yoku-bano-de-bosque-en-tamadaba-74269278" target="_blank">Zur Route</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="kontakt">
+    <h2>Kontakt</h2>
+    <p>📍 Tejeda, Gran Canaria</p>
+    <p>📧 <a href="mailto:casaellomito@gmail.com">casaellomito@gmail.com</a></p>
+    <p>📱 <a href="tel:+34658054198">+34 658 05 41 98</a></p>
+    <p>Folgen Sie uns auf <a href="https://www.instagram.com/lomitoshouse/" target="_blank">Instagram</a></p>
+    <p>&copy; 2025 Landhaus El Lomito</p>
+  </footer>
+</body>
+</html>
